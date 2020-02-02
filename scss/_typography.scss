@@ -1,4 +1,31 @@
 /* Typography */
 $title: "Alfa Slab One", serif;
-$headings: "Roboto", sans-serif;
+$headings: "Inter", sans-serif;
 $paragraph: "Open Sans", sans-serif;
+
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings;
+}
+
+h1#title {
+  font-family: $title;
+}
+
+p {
+  font-family: $paragraph;
+}
