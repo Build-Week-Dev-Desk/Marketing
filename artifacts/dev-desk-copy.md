@@ -8,7 +8,7 @@ DevDesk is designed to get you the help you need for technical questions, quickl
 Support is provided by an engaged community of fellow learners, who receive points for helping others.
 
 ### Learn in public
-When you ask questions in public, everyone can learn. Your questions contribute to everyone's knowledge.
+When you ask questions, everyone learns. DevDesk makes it easy to find questions other people have asked, so that answers to questions continue to help people.
 
 ## Get Started
 Start asking questions and get help now
