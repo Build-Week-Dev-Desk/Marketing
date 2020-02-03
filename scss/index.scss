@@ -2,9 +2,10 @@
 @use "typography";
 @use "landing-page";
 
-// * {
-//   outline: 1px solid cyan;
-// }
+* {
+  // outline: 1px solid cyan;
+  box-sizing: border-box;
+}
 
 body {
   max-width: 940px;
