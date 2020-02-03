@@ -1,0 +1,17 @@
+@mixin heavy-shadow {
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.8);
+}
+
+@mixin button($background-color, $text-color: white, $font-size: 1rem) {
+  button {
+    border: none;
+    border-radius: $font-size / 5;
+    background-color: $background-color;
+    color: $text-color;
+    font-size: $font-size;
+    padding: 0.5rem 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+}

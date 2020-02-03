@@ -1,0 +1,30 @@
+@use "mixins" as *;
+
+main.landing-page {
+  text-align: center;
+
+  header#hero {
+    color: white;
+    background-image: url("../assets/hero.jpg");
+    background-position: center top;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    h1#title {
+      @include heavy-shadow;
+      align-self: flex-end;
+      font-size: 72px;
+      margin-bottom: 0;
+    }
+    div {
+      align-self: flex-start;
+      h2 {
+        @include heavy-shadow;
+        color: #fafafa;
+        margin-top: 0;
+      }
+
+      @include button(#7ed321);
+    }
+  }
+}

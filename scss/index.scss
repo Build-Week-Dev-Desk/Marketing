@@ -1,11 +1,14 @@
+@use "normalize";
 @use "typography";
+@use "landing-page";
 
-main {
+* {
+  outline: 1px solid cyan;
+}
+
+body {
   max-width: 940px;
   margin: auto;
-  section#hero {
-    text-align: center;
-  }
 }
 
 // @include breakpoint(500px) {
