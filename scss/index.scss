@@ -2,13 +2,17 @@
 @use "typography";
 @use "landing-page";
 
-* {
-  outline: 1px solid cyan;
-}
+// * {
+//   outline: 1px solid cyan;
+// }
 
 body {
   max-width: 940px;
   margin: auto;
+}
+
+img {
+  max-width: 100%;
 }
 
 // @include breakpoint(500px) {
