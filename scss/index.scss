@@ -1,1 +1,13 @@
 @use "typography";
+
+main {
+  max-width: 940px;
+  margin: auto;
+  section#hero {
+    text-align: center;
+  }
+}
+
+// @include breakpoint(500px) {
+//   background: red;
+// }
