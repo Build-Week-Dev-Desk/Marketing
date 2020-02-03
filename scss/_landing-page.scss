@@ -18,8 +18,8 @@ main.landing-page {
     }
     div {
       align-self: flex-start;
-      h2 {
-        @include heavy-shadow;
+      p {
+        @include light-shadow;
         color: #fafafa;
         margin-top: 0;
       }
