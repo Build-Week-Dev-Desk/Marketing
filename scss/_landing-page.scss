@@ -15,6 +15,9 @@ body.landing-page {
       align-self: flex-end;
       font-size: 72px;
       margin-bottom: 0;
+      @media (max-width: $mobile) {
+        font-size: 17vw;
+      }
     }
     div {
       align-self: flex-start;
@@ -24,7 +27,7 @@ body.landing-page {
         margin-top: 0;
       }
 
-      @include button(#7ed321);
+      @include button($lime-green);
     }
   }
 
@@ -36,7 +39,6 @@ body.landing-page {
     margin: 2rem 0;
     padding: 1rem;
     section {
-      //   display: flex;
       h2 {
         margin-top: 0;
       }
@@ -46,9 +48,11 @@ body.landing-page {
         article {
           padding-right: 1rem;
           flex: 1 1 440px;
+          display: grid;
+          align-content: center;
         }
         div {
-          flex: 0 1 460px;
+          flex: 1 1 460px;
           display: grid;
           align-content: center;
         }
@@ -75,7 +79,7 @@ body.landing-page {
     height: 400px;
     display: grid;
     text-align: center;
-    @include button(#128c87);
+    @include button($cool-teal);
 
     div {
       align-self: flex-end;

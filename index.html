@@ -63,10 +63,17 @@
     </main>
     <footer class="get-started">
       <div>
-        <button>Get Started</button>
+        <button onclick="location.href='https://devdeskgranola.now.sh/'">
+          Get Started
+        </button>
         <h3>Start asking questions and get help now</h3>
       </div>
       <small>Built by the DevDesk team</small>
     </footer>
+    <script>
+      document.querySelector("#hero button").onclick = function() {
+        document.querySelector("main").scrollIntoView({ behavior: "smooth" });
+      };
+    </script>
   </body>
 </html>
