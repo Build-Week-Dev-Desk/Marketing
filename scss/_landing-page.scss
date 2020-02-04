@@ -25,6 +25,13 @@ body.landing-page {
         @include light-shadow;
         color: #fafafa;
         margin-top: 0;
+        padding: 0 1rem;
+        span {
+          display: none;
+          @media (max-width: $mobile-sm) {
+            display: inline;
+          }
+        }
       }
 
       @include button($lime-green);
@@ -86,6 +93,7 @@ body.landing-page {
       h3 {
         @include light-shadow;
         color: #fafafa;
+        padding: 0 1rem;
       }
     }
     small {
