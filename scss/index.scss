@@ -1,6 +1,7 @@
 @use "normalize";
 @use "typography";
 @use "landing-page";
+@use "team-page";
 
 * {
   // outline: 1px solid cyan;
@@ -15,7 +16,3 @@ body {
 img {
   max-width: 100%;
 }
-
-// @include breakpoint(500px) {
-//   background: red;
-// }

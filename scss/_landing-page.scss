@@ -34,8 +34,8 @@ body.landing-page {
   main {
     display: grid;
     grid-template-columns: 5fr 7fr;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
+    grid-gap: 1rem; // for older browsers
+    gap: 1rem;
     margin: 2rem 0;
     padding: 1rem;
     section {
@@ -91,6 +91,9 @@ body.landing-page {
     small {
       align-self: flex-end;
       padding: 1rem 0;
+      a {
+        color: #fff;
+      }
     }
   }
 }
