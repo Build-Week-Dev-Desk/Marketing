@@ -14,8 +14,8 @@ body.team-page {
         padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem; // for older browsers
-        gap: 1rem;
+        grid-gap: $grid-gap; // for older browsers
+        gap: $grid-gap;
         li {
           text-align: center;
           margin-bottom: 2rem;
