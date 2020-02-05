@@ -49,7 +49,6 @@ body.landing-page {
     grid-gap: $grid-gap; // for older browsers
     gap: $grid-gap;
     margin: 2rem 0;
-    padding: 1rem;
     section {
       &:last-child {
         grid-column: 1 / 3;
