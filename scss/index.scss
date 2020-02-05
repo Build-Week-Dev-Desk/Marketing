@@ -1,18 +1,6 @@
 @use "normalize";
 @use "typography";
+@use "global";
 @use "landing-page";
 @use "team-page";
-
-* {
-  // outline: 1px solid cyan;
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 940px;
-  margin: auto;
-}
-
-img {
-  max-width: 100%;
-}
+@use "credits";

@@ -1,0 +1,33 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+* {
+  outline: 1px solid cyan;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 940px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+header.top {
+  background-color: $lime-green;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  @include box-shadow;
+  h1#title {
+    text-align: center;
+    @include light-shadow;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

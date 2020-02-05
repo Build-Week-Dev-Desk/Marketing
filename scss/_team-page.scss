@@ -2,21 +2,6 @@
 @use "mixins" as *;
 
 body.team-page {
-  header {
-    background-color: $lime-green;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    h1#title {
-      text-align: center;
-      @include light-shadow;
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
-    }
-  }
   main {
     margin: 7rem 0 5rem;
     section.team-members {
